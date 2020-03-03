@@ -1,0 +1,41 @@
+* {
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
+}
+
+.app {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  height: 100vh;
+  weidth: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #524b77;
+  font-size: 40px;
+}
+.app .container {
+  height: 650px;
+  weidth: 1000px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  position: relative;
+  box-shadow: 3px 3px 50px;
+  border-radius: 2px;
+}
+.app .svg {
+  background-color: white;
+}
+
+#tooltip {
+  color: green;
+  height: 20px;
+  weidth: 75px;
+  background-color: white;
+  align-self: center;
+  position: absolute;
+  box-shadow: 1px 1px 10px;
+  padding: 6px;
+  border-radius: 5px;
+}
